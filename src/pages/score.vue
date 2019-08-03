@@ -6,14 +6,14 @@
             <td align="right" width="80">姓名：</td>
             <td>{{list.name}}&nbsp;</td>
             <td align="right" width="100">身份证号码：</td>
-            <td>430181198612113330&nbsp;</td>
+            <td>43018119866663330&nbsp;</td>
 
             <td rowspan="9"><div align="center"><img id="pic_face"  height="160" width="120" src="../../static/Images/Student/photo.jpg"></div>&nbsp;</td>
           </tr>
           <tr>
             <td align="right">性别：</td>
             <td>{{list.sex}}&nbsp;</td>
-            <td align="right">考号：</td>
+            <td align="right">考生号：</td>
             <td>910513201419&nbsp;</td>
           </tr>
           <tr>
