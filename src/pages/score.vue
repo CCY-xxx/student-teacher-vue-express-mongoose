@@ -13,7 +13,7 @@
           <tr>
             <td align="right">性别：</td>
             <td>{{list.sex}}&nbsp;</td>
-            <td align="right">考生号：</td>
+            <td align="right">考籍号：</td>
             <td>910513201419&nbsp;</td>
           </tr>
           <tr>
