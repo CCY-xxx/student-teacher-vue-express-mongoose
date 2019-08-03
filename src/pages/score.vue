@@ -6,7 +6,7 @@
             <td align="right" width="80">姓名：</td>
             <td>{{list.name}}&nbsp;</td>
             <td align="right" width="100">身份证号码：</td>
-            <td>43018119866663330&nbsp;</td>
+            <td>43018119866660000&nbsp;</td>
 
             <td rowspan="9"><div align="center"><img id="pic_face"  height="160" width="120" src="../../static/Images/Student/photo.jpg"></div>&nbsp;</td>
           </tr>
