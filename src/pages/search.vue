@@ -28,7 +28,7 @@
       <div class="pagede">
         <button @click="desc(-1)">上一页</button>
         <!--<p>...</p>-->
-        <button v-for="(item,index) of total" @click="descw(index+1)"
+        <button v-for="(item,index) of total" :key=index @click="descw(index+1)"
                 :class="{ddal:appear,active:index+1==curId}">{{item}}</button>
         <!--<button @click="descw(2)">2</button>-->
         <!--<button @click="descw(3)" :class="{ddal:appear,active:}">3</button>-->
