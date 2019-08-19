@@ -16,7 +16,7 @@
     },
     methods: {
       conform(){
-        this.$http.post('/stus/stuedit',{oldpwd:this.oldpwd,newpwd:this.newpwd})
+        this.$http.post('/students/stuedit',{oldpwd:this.oldpwd,newpwd:this.newpwd})
           .then((res)=>{
 
             if(res.data.cookie){

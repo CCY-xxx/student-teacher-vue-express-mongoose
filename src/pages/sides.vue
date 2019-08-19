@@ -9,6 +9,7 @@
             <img src="../../static/Images/Student/photo.jpg" alt="" width="165" height="48" />
           </a>
         </div>
+        <h2 style="marginLeft:200px;float:left;lineHeight:60px">欢迎用户：{{nickName}}</h2>
         <div class="topxx">
           <!--<select onchange="changeCateory($(this))" style="font-size: 11px; background: #4991cf;-->
                         <!--color: #fff;">-->
@@ -25,8 +26,8 @@
           <!--&lt;!&ndash;910513201419学员：邹智，欢迎您！ <a href="MyInfo/Index.aspx.html">我的信息</a> <a href="User/StudentInfor/systemMsge.aspx.html">&ndash;&gt;-->
           <!--&lt;!&ndash;通知</a> &ndash;&gt;-->
           <!--<a>密码修改</a>-->
-          <a @click="loginout" :class="{active:flag}">安全退出</a>
-          <a @click="logout" :class="{active:!flag}">安全退出</a>
+          <input style="lineHeight:60px;cursor:pointer" class="btn btn-danger" @click="loginout" :class="{active:flag}" value="安全退出">
+          <input style="lineHeight:60px;cursor:pointer" class="btn btn-danger" @click="logout" :class="{active:!flag}" value="安全退出">
         </div>
         <!--<div class="blog_nav">-->
           <!--<ul>-->
@@ -102,7 +103,8 @@
   export default {
     data() {
       return {
-        flag:true
+        flag:true,
+        nickName:this.$store.state.nickName
       }
     },
     mounted(){
