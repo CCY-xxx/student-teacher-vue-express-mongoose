@@ -2,6 +2,9 @@ var mongoose = require('mongoose')
 var Schema = mongoose.Schema;
 
 var studentSchema = new Schema({
+  "proe":Number,
+  "stuid" : String,
+  "stupwd" : String,
   "name" : String,
   "nameId" : String,
   "age" : String,

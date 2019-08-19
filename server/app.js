@@ -31,7 +31,7 @@ app.use(function (req,res,next) {//登录拦截功能
     next();
   }else{
     console.log("url:"+req.originalUrl);
-    if(req.originalUrl=='/users/login'||req.originalUrl=='/users/register'||req.originalUrl=='/stus/login'||req.originalUrl=='/stus/register'){
+    if(req.originalUrl=='/users/login'||req.originalUrl=='/users/register'||req.originalUrl=='/students/login'||req.originalUrl=='/students/register'){
       next();
     }else{
       // next(

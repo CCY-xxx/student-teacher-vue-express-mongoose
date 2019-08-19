@@ -78,7 +78,7 @@
         computed: {
           totalnum(){
             return parseInt(this.scores[0].Chinese)+parseInt(this.scores[0].Math)+parseInt(this.scores[0].English)+
-            parseInt(this.scores[0].Chinese) +parseInt(this.scores[0].sport)+parseInt(this.scores[0].Computer)
+            parseInt(this.scores[0].sport)+parseInt(this.scores[0].Computer)
           },
           ava(){
             return parseInt(this.totalnum)/5

@@ -157,6 +157,9 @@
     margin-left:200px;
     text-align: center;
   }
+  tr{
+    cursor:pointer
+  }
   .pagede .ddal{
     display: none;
   }

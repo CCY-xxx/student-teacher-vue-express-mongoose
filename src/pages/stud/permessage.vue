@@ -4,9 +4,9 @@
     <div class="contain">
       <table width="100%" cellpadding="0" cellspacing="0">
         <tr>
-          <td align="right" width="80">姓名：</td>
+          <td align="right">姓名：</td>
           <td>{{list.name}}&nbsp;</td>
-          <td align="right" width="100">身份证号码：</td>
+          <td align="right">身份证号码：</td>
           <td>430181198612113330&nbsp;</td>
 
           <td rowspan="9"><div align="center"><img id="pic_face"  height="160" width="120" src="../../../static/Images/Student/photo.jpg"></div>&nbsp;</td>

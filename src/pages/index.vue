@@ -89,6 +89,7 @@
             this.showID = true
             this.nameId = res.data.data[0]._id
             alert('登陆成功');
+           this.$store.state.nickName=this.name
             this.$router.push('/students')
           }else{
             alert(res.data.message)
@@ -128,7 +129,7 @@
   }
   .login{
     width: 100%;
-    height: 600px;
+    height: 660px;
     background: url("../assets/03.jpg") no-repeat 0 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
